@@ -1,0 +1,108 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: #0e000049;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 1555;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 150px ;
+    box-sizing: border-box;
+
+}
+.logo{
+    text-decoration: none;
+    color:#f3ebeb;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.9em;
+    text-align: left;
+}
+.navigation a{
+    
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+    text-align: right;
+
+}
+
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    background-image: url(pic1.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover; 
+    color: white;
+    text-align: center ;
+
+
+}
+.header p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.header img{
+    width:25%;
+    margin-top: 60px; 
+    border-radius: 60%;
+}
+.b
+{
+    padding: 15px 30px;
+    margin-top: 50px;
+    transition: 0.8s ease;
+
+}
+.b:hover{
+    background-color:#cfeeee ;
+    transform: scale(1.1);
+}
+.footer { 
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 61px;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    padding-left: 90%;
+
+}
+
+.footer-title {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.footer .social-icons a{
+    font-size: 1.4em;
+    padding: 10px 5px ;
+    color: #ddeeee;
+    transition: opacity 0.3s ease;
+}
+.footer .social-icons a:hover{
+
+    opacity: 0.6;
+}
